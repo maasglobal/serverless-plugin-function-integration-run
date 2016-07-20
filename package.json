@@ -1,0 +1,25 @@
+{
+  "name": "serverless-plugin-function-integration-run",
+  "version": "0.0.0",
+  "engines": {
+    "node": ">=4.0"
+  },
+  "description": "Serverless Plugin Function Integration Run - A plugin to run function so that input comes from a specified file and result goes to another specified file",
+  "author": "Maas Global, Antti Vähäkotamäki, Serverless project",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/maasglobal/serverless-plugin-function-integration-run"
+  },
+  "keywords": [
+    "serverless plugins",
+    "serverless plugin",
+    "serverless plugin integration run",
+    "serverless.com"
+  ],
+  "main": "index.js",
+  "dependencies": {
+    "bluebird": "^3.0.6",
+    "fs-promise": "^0.5.0"
+  }
+}
